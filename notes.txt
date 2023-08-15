@@ -1,0 +1,42 @@
+a element target attribute = _blank
+    when link is clicked it is opened in new tab
+
+buttons:
+        background-color: rgb(174, 24, 24);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 105px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.8s, color 0.8s;
+        box-shadow: 5px 5px 10px rgb(69, 64, 64);
+    
+    psudo-class of buttons
+        buttons:hover {
+            background-color: rgb(221, 68, 68);
+            opacity: value ranges from 0 - 1
+        }
+
+    opacity, transition, box-shadow know these properties
+
+        .text {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+to put emoji or any icon search html entity of that on web
+
+there are 3 elements of css
+1. block-element (takes entire line, ex: p element)
+2. inline-block element (take as much space as they needs, ex: img, input)
+3. inline element ()
+
+1. put everything inside a div
+2. set the width of the div to a number
+so all things inside the div will be having the same width
+3. by default div is a block element, so change it to inline-block
+so we can put another div on the right side of this div
+
