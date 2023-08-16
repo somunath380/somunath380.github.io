@@ -4,30 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A technophile's journey</title>
-    <link rel="stylesheet" href="main.css">
+    <title>My Journey</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+    <style>
+        
+    </style>
     <div class="navbar">
         <nav>
             <ul>
-                <li><a href="#"><img src="images/home.png" alt="" class="home-btn"></a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#carrer">Carrer</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
     
-    <button class="resume-btn"> Resume </button>
-
-    <div class="about">
+    <button class="resume-btn">Resume</button>
+    
+    <section id="#">
+        <div class="about">
             <h5 class="hi">Hi.. my name is</h5>
             <h1 class="name">Somu Nath.</h1>
             <h1 class="build"> I Learn & build software.</h1>
             <h3 class="description">Passionate about<span class="underline">software development and technology</span>I thrive on building innovative solutions. With an insatiable curiosity, I'm on a continuous journey to expand my knowledge and expertise,<span class="underline">eager to learn and grow</span>within the ever-evolving tech landscape.</h3>
-    </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="about-page">
+            <div class="profile-div">
+                <img src="images/resume_pic.jpeg" alt="" class="resume-pic">
+            </div>
+            <div class="my-desc">
+                <p>
+                    Highly skilled Software Developer with a proven track record of driving innovation and optimizing performance. Proficient in Python and Sanic framework, with hands-on experience in back-end development, currently excelling as a Software Developer and Product Support Engineer at Fynd. Extensively engaged in back-end development, leveraging technologies like Kafka, Docker, and Kubernetes to enhance system efficiency. Proficient in automating processes using shell scripts and Node-RED to maximize productivity. Proactively utilize monitoring tools such as AWS cloudwatch, Grafana, Coralogix, New Relic, Sentry and Tenable to identify and resolve production issues promptly. Seeking new opportunities to apply my software development expertise and drive impactful solutions 
+                </p>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="carrer">
+        <div class="carrer-history">
+            <div class="company-div">
+                <div class="job-logo">
+                    <img src="images/software-engineer.png" class="sde-logo" alt="">
+                </div>
+                <div class="job-desc">
+                    <h2>Fynd (Shopsense retail)</h4>
+                    <h3>Product Support Engineer</h3>
+                    <p>
+                        Provide comprehensive technical support during processing, Automate critical processes using shell scripts and Node-RED, resulting in significant time and resource savings.
+                    </p>
+                    <p> April, 2022 &horbar; Today</p>
+                </div>
+            </div>
+            <div class="company-div">
+                <div class="job-logo">
+                    <img src="images/python.png" class="sde-logo" alt="">
+                </div>
+                <div class="job-desc">
+                    <h2>Shivila technologies</h4>
+                    <h3>Python Developer</h3>
+                    <p>
+                        Provide comprehensive technical support during processing, Automate critical processes using shell scripts and Node-RED, resulting in significant time and resource savings.
+                    </p>
+                    <p> Jan, 2022 &horbar; April, 2022</p>
+                </div>
+            </div>
+            <div class="company-div">
+                <div class="job-logo">
+                    <img src="images/dean.png" class="sde-logo" alt="">
+                </div>
+                <div class="job-desc">
+                    <h2>C.I.M.T college</h4>
+                    <h3>Assosiate Lecturer</h3>
+                    <p>
+                        Provide comprehensive technical support during processing, Automate critical processes using shell scripts and Node-RED, resulting in significant time and resource savings.
+                    </p>
+                    <p> Sep, 2020 &horbar; Jan, 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
 </body>
 </html>

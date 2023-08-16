@@ -1,17 +1,18 @@
-body{
-    background-color: rgb(30, 30, 59);
-    font-family: Courier;
-    color: aliceblue;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
 
-.home-btn{
-    height: 30px;
+
+body{
+    background-color: rgb(15 23 42);
+    color: whitesmoke;
+    margin: 2% 2%;
+    font-family: Courier;
 }
 
 .navbar{
     margin-top: 20px;
+    display: inline-block;
+}
+
+nav{
     display: inline-block;
 }
 
@@ -34,7 +35,7 @@ body{
 .navbar li a{
     display: block;
     color: rgb(59, 242, 181);
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
@@ -43,15 +44,16 @@ body{
 li a:hover{
     color: white;
 }
+
 .resume-btn{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 18px;
+    margin-left: 35px;
     margin-right: 40px;
     color: rgb(59, 242, 181);
     height: 50px;
     width: 120px;
     background-color: rgb(30, 30, 59);
-    border-color: whitesmoke;
+    /* border-color: whitesmoke; */
     border-radius: 25px;
     border-color: rgb(59, 242, 181);
     font-family: Courier;
@@ -61,7 +63,6 @@ li a:hover{
     cursor: pointer;
     transition: color 0.2s, transform 0.5s;
 }
-
 .resume-btn:hover{
     color: aliceblue;
     border-color: aliceblue;
@@ -71,6 +72,7 @@ li a:hover{
 
 .about{
     margin-top: 100px;
+    margin-bottom: 250px;
     display: block;
     margin-top: 30px;
     margin-left: 40px;
@@ -147,4 +149,81 @@ li a:hover{
 
 .underline:hover::after {
     transform: scaleX(100%);
+}
+
+.about-page{
+    margin-top: 50%;
+    margin-bottom: 30%;
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 1fr 2.5fr;
+    padding-top: 150px;
+}
+
+.resume-pic{
+    width: 200px;
+    border-radius: 100px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.profile-div{
+    object-position: center;
+    padding-left: 15%;
+}
+
+.my-desc{
+    line-height: 25px;
+    margin-right: 50px;
+    transition: transform 1s, color 1s, background-color 0.5s;
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: large;
+}
+
+.my-desc:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carrer-history{
+    padding-top: 10px;
+    display: block;
+}
+
+.company-div{
+    width: 80%;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+    transition: transform 1s, color 1s;
+}
+
+.company-div:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.job-logo{
+    margin-top: 20px;
+    display: inline-block;
+    width: 10%;
+}
+
+.sde-logo{
+    height: 80px; 
+    background-color: aliceblue; 
+    border-radius: 40px;
+    object-position: center;
+}
+
+.job-desc{
+    width:70%;
+    display: inline-block;
 }
