@@ -11,6 +11,7 @@
     padding-left: 100px;
     margin-bottom: 40px;
     transition: transform 1s, color 1s;
+    text-align: justify;
 }
 
 .company-div:hover{

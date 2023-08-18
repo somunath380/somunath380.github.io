@@ -1,0 +1,55 @@
+.courses{
+    display: block;
+    margin-top: 200px;
+}
+
+.course{
+    /* padding-left: 300px;
+    padding-right: 200px; */
+    margin: 100px 300px;
+    height: 150px;
+    text-align: center;
+    transition: transform 1s, color 1s, background-color 1s;
+}
+
+.course-logo{
+    display: inline-block;
+    width: 10%;
+    padding-top: 30px;
+}
+
+.img-logo{
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    object-position: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.course-desc{
+    margin-left: 30px;
+    width: 70%;
+    display: inline-block;
+}
+
+.course-title{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: rgb(59, 242, 181);
+}
+
+.course-certificate{
+    margin-top: 30px;
+}
+
+.course-certificate a{
+    color: rgb(220, 234, 244);
+}
+
+.course:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.2);
+}
