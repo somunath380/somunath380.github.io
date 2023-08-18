@@ -1,3 +1,5 @@
+drawing url: https://excalidraw.com/#json=23g3UIt9KSzS85WxbDiCT,U9uY4RV4ICyT7goJUmQbUA
+
 a element target attribute = _blank
     when link is clicked it is opened in new tab
 
@@ -60,3 +62,43 @@ so if
     grid-template-columns: 100px 1fr then 1 col will be 100px and another col will take the remaining free space
 
     if grid-template-columns: 100px 1fr 2fr then 1 col will be 100px and another 2 cols will take the remaining free space 1 with 1/3 space and another with 2/3 of the free space
+
+
+
+css flexbox
+we can use flexbox as a replacement to grids
+it also works as grid
+
+1. display: flex
+2. flex-direction: row; as this will create a horizontal rows
+3. give the param flex: 1 or flex: 2 this acts as 1fr in grid-template-columns value
+4. justify-content: center/start/end/space-between (this will put the content in the box accordingly)
+5. align-items: stretch/start/end/center (this will allign contents in the box vertically in each boxes)
+6. max-width: 300px (it means the width can be max 300px and after that it will not increase)
+
+
+the difference between grid and flex is that layout
+grid = grid layout
+flex = flexible layout
+
+css position:
+this is used to keed the things as where they are while scrolling
+and when we hover over the buttons it can show description about the buttons
+
+the css property is position
+it has default value static but it can have other values like
+
+fixed, absolute, relative etc
+
+use position: fixed to fix the position of the container
+but if the position is default which is background will stretch to the end of the right side
+if position: fixed the background will behave as inline-block
+
+4 properties can be used to move the fixed element
+1. top: move the element from the top
+2. left: move the element from the left
+3. right and bottom
+but if we set opposite directions i.e right: 10px and left: 10px, the background will stretch all the way
+to meet the requirements
+
+

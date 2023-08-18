@@ -1,0 +1,38 @@
+.carrer-history{
+    padding-top: 10px;
+    display: block;
+}
+
+.company-div{
+    width: 80%;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+    transition: transform 1s, color 1s;
+}
+
+.company-div:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.job-logo{
+    margin-top: 20px;
+    display: inline-block;
+    width: 10%;
+}
+
+.sde-logo{
+    height: 80px; 
+    background-color: aliceblue; 
+    border-radius: 40px;
+    object-position: center;
+}
+
+.job-desc{
+    width:70%;
+    display: inline-block;
+}

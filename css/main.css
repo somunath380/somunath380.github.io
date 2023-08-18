@@ -3,72 +3,16 @@
 body{
     background-color: rgb(15 23 42);
     color: whitesmoke;
-    margin: 2% 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    margin-left: 2%;
     font-family: Courier;
+    padding-top: 100px;
 }
 
-.navbar{
-    margin-top: 20px;
-    display: inline-block;
-}
 
-nav{
-    display: inline-block;
-}
 
-.navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    display: inline-block;
-    transition: transform 0.3s;
-}
-.navbar ul li{
-    float: left;
-}
-
-.navbar ul :hover{
-    transform: scale(1.1);
-}
-
-.navbar li a{
-    display: block;
-    color: rgb(59, 242, 181);
-    font-size: 22px;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: color 0.5s, transform 0.5s;
-}
-li a:hover{
-    color: white;
-}
-
-.resume-btn{
-    margin-top: 18px;
-    margin-left: 35px;
-    margin-right: 40px;
-    color: rgb(59, 242, 181);
-    height: 50px;
-    width: 120px;
-    background-color: rgb(30, 30, 59);
-    /* border-color: whitesmoke; */
-    border-radius: 25px;
-    border-color: rgb(59, 242, 181);
-    font-family: Courier;
-    font-size: large;
-    font-weight: bold;
-    float: right;
-    cursor: pointer;
-    transition: color 0.2s, transform 0.5s;
-}
-.resume-btn:hover{
-    color: aliceblue;
-    border-color: aliceblue;
-    opacity: 0.9;
-    transform: scale(1.1);
-}
 
 .about{
     margin-top: 100px;
@@ -151,79 +95,4 @@ li a:hover{
     transform: scaleX(100%);
 }
 
-.about-page{
-    margin-top: 50%;
-    margin-bottom: 30%;
-    display: grid;
-    margin-top: 5%;
-    grid-template-columns: 1fr 2.5fr;
-    padding-top: 150px;
-}
 
-.resume-pic{
-    width: 200px;
-    border-radius: 100px;
-    object-position: center;
-    object-fit: contain;
-}
-
-.profile-div{
-    object-position: center;
-    padding-left: 15%;
-}
-
-.my-desc{
-    line-height: 25px;
-    margin-right: 50px;
-    transition: transform 1s, color 1s, background-color 0.5s;
-    text-align: justify;
-    padding-right: 40px;
-    padding-left: 30px;
-    line-height: 25px;
-    font-size: large;
-}
-
-.my-desc:hover{
-    transform: scale(1.1);
-    color: aquamarine;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.carrer-history{
-    padding-top: 10px;
-    display: block;
-}
-
-.company-div{
-    width: 80%;
-    line-height: 20px;
-    margin-top: 20px;
-    margin-left: 100px;
-    padding-left: 100px;
-    margin-bottom: 40px;
-    transition: transform 1s, color 1s;
-}
-
-.company-div:hover{
-    transform: scale(1.1);
-    color: aquamarine;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.job-logo{
-    margin-top: 20px;
-    display: inline-block;
-    width: 10%;
-}
-
-.sde-logo{
-    height: 80px; 
-    background-color: aliceblue; 
-    border-radius: 40px;
-    object-position: center;
-}
-
-.job-desc{
-    width:70%;
-    display: inline-block;
-}
